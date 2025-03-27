@@ -1,18 +1,34 @@
 # MSAGHNet
-This is the official repository for 'A Multi-Resolution Hybrid CNN-Transformer  Network with Scale-Guided Attention for Medical  Image Segmentation'
+This is the repository for 'A Multi-Resolution Hybrid CNN-Transformer  Network with Scale-Guided Attention for Medical  Image Segmentation'
 
 The network code has been released and you can train and test.
-
-More detail will be updated soon.
 
 # Architecture
 <p align="center">
 <img src="img/Architecture.png">
 </p>
 
-# Train and Test
-Please use train.py and test.py for model training and prediction. 
+# Dataset Structure
+The dataset is organized as follows:
 
+ - `data/`
+    - `dataset_name/`: Name of the dataset used, such as BUSI, KvasirSEG, PanSeg, and Sliver
+        - `train/`: Contains training dataset
+          - `img/`: Training images
+          - `mask/`: Corresponding segmentation masks for training images
+        - `test/`: Contains training dataset
+          - `img/`: Test images
+          - `mask/`: Corresponding segmentation masks for test images
+          
+        - `val/`: Contains validation dataset
+          - `img/`: Validation images
+          - `mask/`: Corresponding segmentation masks for validation images
+            
+    - `dataset_name/`: Name of the dataset used, such as BUSI, KvasirSEG, PanSeg, and Sliver
+       - .......
+
+# Train and Test
+Please use Train.py and Test.py for model training and prediction. 
 
 # Datasets
 The following datasets are used in this experiment:
