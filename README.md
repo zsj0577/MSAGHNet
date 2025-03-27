@@ -17,7 +17,7 @@ Please use train.py and test.py for model training and prediction.
 # Datasets
 The following datasets are used in this experiment:
 <ol>
-  <li><a href="https://scholar.cu.edu.eg/?q=afahmy/pages/dataset/">CVC-ClinicDB</a></li>
+  <li><a href="https://scholar.cu.edu.eg/?q=afahmy/pages/dataset/">BUSI</a></li>
   <li><a href="https://datasets.simula.no/kvasir-seg/">KvasirSEG</a></li>
   <li><a href="https://https://osf.io/kysnj/">PanSeg</a></li>
   <li><a href="https://sliver07.grand-challenge.org/">Sliver</a></li>
