@@ -1,5 +1,5 @@
 # MSAGHNet
-This is the repository for 'A Multi-Resolution Hybrid CNN-Transformer  Network with Scale-Guided Attention for Medical  Image Segmentation'
+This is the repository for 'A Multi-Resolution Hybrid CNN-Transformer Network with Scale-Guided Attention for Medical Image Segmentation'
 
 # Architecture
 <p align="center">
@@ -36,3 +36,13 @@ The following datasets are used in this experiment:
   <li><a href="https://osf.io/kysnj/">PanSeg</a></li>
   <li><a href="https://sliver07.grand-challenge.org/">Sliver</a></li>
  </ol>
+
+# Citation
+Please cite the following reference if you use this code.
+@article{zhu2025multi,
+  title={A Multi-Resolution Hybrid CNN-Transformer Network With Scale-Guided Attention for Medical Image Segmentation},
+  author={Zhu, Shujin and Li, Yue and Dai, Xiubin and Mao, Tianyi and Wei, Lei and Yan, Yidan},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2025},
+  publisher={IEEE}
+}
